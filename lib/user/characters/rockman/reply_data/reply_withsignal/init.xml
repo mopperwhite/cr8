@@ -1,0 +1,16 @@
+<init>
+	<mode>text</mode>
+	<encoding>UTF-8</encoding>
+	<order>kvsa</order>
+	<sep>||</sep>
+	<regex_flags>SI</regex_flags>
+	<readonly>False</readonly>
+	<format>[Entry][Keys=%s][Values=%s][Signal=%s][Args=%s][/Entry]</format>
+	<call_priority>0</call_priority>
+	<teach_priority>0</teach_priority>
+	<note>\[note\].+?\[\/note\]</note>
+	<note_regex_flag>SI</note_regex_flag>
+	<msger_args_mode>no</msger_args_mode>
+	<msger_kwarg_name>messager</msger_kwarg_name>
+	<file>local_reply_file</file>
+</init>

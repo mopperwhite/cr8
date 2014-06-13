@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui_setting sep="|" order="general|character|global">
+	<general sep="|" order="name">
+		<name>
+			<type>"Str"</type>
+		</name>
+	</general>
+	<character sep="|" order="echo|teachable">
+		<echo>
+			<type>"Bool"</type>
+		</echo>
+		<teachable>
+			<type>"Bool"</type>
+		</teachable>
+	</character>
+	<global sep="|" order="language|warn_when_quit">
+		<language>
+			<type>"Str"</type>
+		</language>
+		<warn_when_quit>
+			<type>"Bool"</type>
+		</warn_when_quit>
+	</global>
+</ui_setting>

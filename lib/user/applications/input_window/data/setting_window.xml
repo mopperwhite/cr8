@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui_setting sep="|" order="window|textedit|sendbutton|popmenu">
+	<window sep="|" order="pos|size|lock|nomral_transparency|mouse_on_transparency|on_the_top|icon_size">
+		<pos>
+			<type>"Pos"</type>
+			<x_range>(-$SCREEN_WIDTH,$SCREEN_WIDTH)</x_range>
+			<y_range>(-$SCREEN_HEIGHT,$SCREEN_HEIGHT)</y_range> 
+		</pos>
+		<size>
+			<type>"Size"</type>
+			<w_range>(1,$SCREEN_WIDTH)</w_range>
+			<h_range>(1,$SCREEN_HEIGHT)</h_range>
+		</size>
+		<lock>
+			<type>"Bool"</type>
+		</lock>
+		<nomral_transparency>
+			<type>"Int"</type>
+			<range>(0,100)</range>
+			<suffix>"%s"</suffix>
+		</nomral_transparency>
+		<mouse_on_transparency>
+			<type>"Int"</type>
+			<range>(0,100)</range>
+			<suffix>"%s"</suffix>
+		</mouse_on_transparency>
+		<on_the_top>
+			<type>"Bool"</type>
+		</on_the_top>
+		<icon_size>
+			<type>"Size"</type>
+			<w_range>(1,$SCREEN_WIDTH)</w_range>
+			<h_range>(1,$SCREEN_HEIGHT)</h_range>
+		</icon_size>
+	</window>
+	<textedit sep="|" order="pos|size">
+		<pos>
+			<type>"Pos"</type>
+			<x_range>(-$SCREEN_WIDTH,$SCREEN_WIDTH)</x_range>
+			<y_range>(-$SCREEN_HEIGHT,$SCREEN_HEIGHT)</y_range> 
+		</pos>
+		<size>
+			<type>"Size"</type>
+			<w_range>(1,$SCREEN_WIDTH)</w_range>
+			<h_range>(1,$SCREEN_HEIGHT)</h_range>
+		</size>
+	</textedit>
+	<sendbutton sep="|" order="pos|size|send_key">
+		<pos>
+			<type>"Pos"</type>
+			<x_range>(-$SCREEN_WIDTH,$SCREEN_WIDTH)</x_range>
+			<y_range>(-$SCREEN_HEIGHT,$SCREEN_HEIGHT)</y_range> 
+		</pos>
+		<size>
+			<type>"Size"</type>
+			<w_range>(1,$SCREEN_WIDTH)</w_range>
+			<h_range>(1,$SCREEN_HEIGHT)</h_range>
+		</size>
+		<send_key>
+			<type>"Combo"</type>
+			<items>"Ctrl+Enter|Enter"</items>
+			<sep>"|"</sep>
+		</send_key>
+	</sendbutton>
+	<popmenu sep="|" order="operation|management|setting|about|quit">
+		<operation>
+			<type>"Bool"</type>
+		</operation>
+		<management>
+			<type>"Bool"</type>
+		</management>
+		<setting>
+			<type>"Bool"</type>
+		</setting>
+		<about>
+			<type>"Bool"</type>
+		</about>
+		<quit>
+			<type>"Bool"</type>
+		</quit>								
+	</popmenu>
+</ui_setting>

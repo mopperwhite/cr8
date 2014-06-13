@@ -1,0 +1,13 @@
+<init>
+	<mode>text</mode>
+	<encoding>UTF-8</encoding>
+	<order>kv</order>
+	<sep>||</sep>
+	<regex_flags>SI</regex_flags>
+	<readonly>False</readonly>
+	<format>[Entry][Keys=%s][Values=%s][/Entry]</format>
+	<teach_priority>1</teach_priority>
+	<note>\[note\].+?\[\/note\]</note>
+	<note_regex_flag>SI</note_regex_flag>
+	<file>local_reply_file</file>
+</init>
