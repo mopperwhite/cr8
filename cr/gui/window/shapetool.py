@@ -56,7 +56,7 @@ class ShapeTool(QWidget):
 		elif isinstance(size,tuple):
 			size=QSize(*size)
 		self.__bgpmp=QPixmap(background.scaled(size))
-		palette=QPalette(self)
+		palette=QPalette()
 		palette.setBrush(self.backgroundRole(),QBrush(self.__bgpmp))        
 		self.setPalette(palette)
 		self.setAutoFillBackground=True
